@@ -7,7 +7,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ['https://library92.herokuapp.com/', 'localhost:8000']
+ALLOWED_HOSTS = ['library92.herokuapp.com', 'localhost:8000']
 
 """
 Including new apps:
